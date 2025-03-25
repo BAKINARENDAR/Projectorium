@@ -16,7 +16,7 @@ const About = () => {
                 <br></br>
                 <br></br>
                 <div>
-                        <h2 style={{ color: "white", backgroundColor:"#067062",marginBottom:"10px"}}>Our Team</h2>
+                <center><div style={{borderRadius:"10px",boxShadow: "0 4px 6px rgba(0, 0, 0, 0.5)", color: "white", backgroundColor:"#067062",marginBottom:"10px"}}><h2>Our Team</h2></div></center>
                         <div>
                         <ul className="team_list">
                             <li className="team_member">
