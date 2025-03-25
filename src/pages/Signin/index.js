@@ -1,6 +1,8 @@
 
 import { useContext, useEffect } from "react";
 import { MyContext } from "../../App";
+import { Link } from "react-router-dom";
+
 
 const Signin=()=>{
     const { setshowheaderfooter } = useContext(MyContext );
@@ -46,8 +48,8 @@ const Signin=()=>{
               </div>
               
               <div className="not">
-                <p>Not Registered?</p>
-                <span>Sign Up</span>
+              <p>Not Registered?</p>
+              <Link to="/Signup">Signup</Link>
               </div>
              
               <div className="other">

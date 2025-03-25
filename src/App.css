@@ -105,7 +105,20 @@ body {
   font-weight: 540;
   display: flex;
   font-size: 0.8rem;
+  text-decoration: none;
 }
+.no-underline {
+  text-decoration: none;
+  color: inherit;
+}
+
+.no-underline:visited,
+.no-underline:hover,
+.no-underline:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 .care
 {
   background-color: #067062;
@@ -286,15 +299,31 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 .not 
 {
   display: flex;
+  align-items: center;
+  gap: 0px;
 }
+.not a {
+  color: #067062; 
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.not a:hover {
+  color: #044d43; 
+  text-decoration: underline;
+}
+
 .not p{
   color: #888c8c;
   font-size: 0.8rem;
-  margin-top: 10px;
-  margin-left: 20px;
+  padding: 5px;
+  padding-left: 90px;
+  
+  line-height: 1;
 }
 .not span{
-  color:#087185 ;
+  color:#055349 ;
   margin-top: 10px;
   margin-left: 5px;
   cursor: pointer;

@@ -1,5 +1,6 @@
 import { useContext, useEffect } from "react";
 import { MyContext } from "../../App";
+import { Link } from "react-router-dom";
 
 
 const Signup = () => {
@@ -56,8 +57,8 @@ const Signup = () => {
               </div>
 
               <div className="not">
-                <p>Already Registered?</p>
-                <span>Sign In</span>
+              <p>Not Registered?</p>
+              <Link to="/Signin">Signin</Link>
               </div>
 
               <div className="other">
