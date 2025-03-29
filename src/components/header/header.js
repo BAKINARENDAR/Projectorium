@@ -20,7 +20,9 @@ const Header = () => {
       <header>
         <div className="navbar">
           <div className="navbar-logo">
+            <Link to="/">
             <div className="logo"></div>
+            </Link>
           </div>
 
           <div className="nav-search">
@@ -64,10 +66,11 @@ const Header = () => {
           </div>
 
           <div className="nav-ccare">
+            <Link to="/contactus" className="no-underline">
             <button className="care">
             <RiCustomerService2Fill className="care-info" />
 
-              <p>24x7 Customer Care</p></button>
+              <p>24x7 Customer Care</p></button></Link>
           </div>
 
           {/* Right Side Sidebar (Drawer) */}
@@ -96,7 +99,7 @@ const Header = () => {
                <Link to="/about">
                <button className="aboutbutton" onClick={() => {}}>About us</button>
                </Link>
-               <Link to="/">
+               <Link to="/contactus">
                <button className="contactus" onClick={() => {}}>Contact us</button>
                </Link>
                </div>

@@ -3,18 +3,32 @@ const About = () => {
     return (
         <>
             <section>
-                <div>
-                    <head><h1>About Us</h1>
-                    <link href="App.css" rel="stylesheet" />
-                    </head>
-                    <p>Welcome to Projectorium: The ultimate destination for projects of all sorts.</p>
-                    <p>Our team is composed of students who are passionate about what they do.</p>
-                    <br></br>
-                    <p>Contact us at projectorium@projectorium.com for more information.</p>
-                </div>
+            <div className="about-section">
+  <h1>About Us</h1>
+  <p>
+    Welcome to <strong>Projectorium</strong>, your ultimate destination for discovering, sharing,  
+    and managing projects across various domains. Whether you're a student, researcher,  
+    or industry professional, our platform helps you showcase your work and find inspiration.  
+  </p>
+  <p>
+    Our mission is to bridge the gap between innovation and accessibility by  
+    providing a structured database where project ideas can thrive.  
+    We aim to create a collaborative environment where knowledge is freely exchanged,  
+    helping individuals learn from each other's experiences.
+  </p>
+  <p>
+    Our team is composed of passionate individuals dedicated to building a  
+    streamlined, user-friendly platform. We are constantly working to enhance  
+    features that make project sharing more effective and engaging.
+  </p>
+  <p>
+    Have questions or suggestions? Contact us at  
+    <a href="mailto:projectorium@projectorium.com"> projectorium@projectorium.com</a>.  
+    We'd love to hear from you!
+  </p>
+</div>
 
-                <br></br>
-                <br></br>
+                
                 <div>
                 <center><div style={{borderRadius:"10px",boxShadow: "0 4px 6px rgba(0, 0, 0, 0.5)", color: "white", backgroundColor:"#067062",marginBottom:"10px"}}><h2>Our Team</h2></div></center>
                         <div>
@@ -27,7 +41,7 @@ const About = () => {
                             </li>
                             <li className="team_member">
                                 <img src={speakerImg} alt="Lead Developer"/>
-                                <h3>Skand Raj</h3>
+                                <h3>Skand Raaj</h3>
                                 <p>Lead Developer</p>
                             </li>
                             <li className="team_member">

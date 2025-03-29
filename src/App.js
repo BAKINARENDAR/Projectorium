@@ -8,6 +8,7 @@ import ProjectDetails from "./pages/ProjectDetails";
 import Signin from './pages/Signin/index';
 import Signup from './pages/Signup/index';
 import About from "./pages/About";
+import Contactus from "./pages/contactus";
 
 
 export const MyContext = createContext();
@@ -30,7 +31,7 @@ function App() {
           <Route path="/SignIn" element={<Signin />} />
           <Route path="/Signup" element={<Signup />} />
           <Route path="/About" element={<About />} />
-        
+          <Route path="/Contactus" element={<Contactus />} />
          
         </Routes>
         {showheaderfooter && <Footer />}
