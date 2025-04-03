@@ -43,8 +43,9 @@ const Signin=()=>{
               </div>
               <div className="sign-cancel">
                
+              <Link to="/">
                 <button className="signin-cancel">Cancel</button>
-             
+                </Link>             
               </div>
               
               <div className="not">

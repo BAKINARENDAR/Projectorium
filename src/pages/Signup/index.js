@@ -53,8 +53,9 @@ const Signup = () => {
                 <button className="signin-b">Sign Up</button>
               </div>
               <div className="sign-cancel">
+              <Link to="/">
                 <button className="signin-cancel">Cancel</button>
-              </div>
+                </Link>              </div>
 
               <div className="not">
               <p>Not Registered?</p>
