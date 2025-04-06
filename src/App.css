@@ -21,17 +21,11 @@ body {
 
 }
 
-.signin-container
-{
-  position: relative;
-  background-color: #fff;
-  height: 640px;
-  background-image: url("images/login-signup-background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 60px;
+.signin-container {
+  background-image: url("images/login-signup-background1.png");
   
 }
+
 
 .signin-logo
 {
@@ -108,31 +102,26 @@ body{
 
 .simg1{
   background-image: url("images/banner.png");
-  width: 600px;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-size: contain;
+  
 }
 .simg2{
   background-image: url("images/banner1.jpg");
-  width: 600px;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-size: contain;
+  
 }
 .simg3{
   background-image: url("images/banner2.png");
-  width: 600px;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-size: contain;
+  
 }
 .simg4{
   background-image: url("images/banner3.jpg");
-  width: 600px;
-  height: 200px;
+  
+}
+.simg1, .simg2, .simg3, .simg4, .happy {
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;        /* Fills the area, crops sides */
+  background-position: center;   /* Keeps image centered */
+  width: 100%;                   /* Responsive width */
+  height: 200px;                 /* You can adjust this as needed */
 }
 
 

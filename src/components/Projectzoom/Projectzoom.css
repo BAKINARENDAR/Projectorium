@@ -33,3 +33,44 @@
   .thumbnail:hover {
     border: 2px solid #067062;
   }
+  /* Responsive Styling */
+@media (max-width: 768px) {
+  .details-sidebar {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  .details-sidebar .thumbnail-major {
+    width: 90%;
+    height: auto;
+    left: 0;
+    top: 20px;
+    margin: 0 auto;
+  }
+
+  .thumbnail-gallery {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 0;
+    gap: 10px;
+  }
+
+  .thumbnail-gallery img {
+    width: 60px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .details-sidebar .thumbnail-major {
+    width: 100%;
+  }
+
+  .thumbnail-gallery img {
+    width: 50px;
+    height: 40px;
+  }
+}

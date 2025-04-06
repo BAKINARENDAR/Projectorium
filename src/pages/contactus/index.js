@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './CustomerCare.css'; // 🔥 Import the new CSS file
 
 const CustomerCare = () => {
   const [message, setMessage] = useState("");
@@ -63,20 +64,20 @@ const CustomerCare = () => {
   };
 
   return (
-    <div style={styles.container}>
+    <div style={styles.container} className="customer-container">
       <h1 style={{ color: "#067062", fontSize: "28px" }}>Customer Care</h1>
       <p style={{ fontSize: "16px", color: "#555", marginBottom: "20px" }}>
         We are here to assist you. Contact us for support, inquiries, or feedback.
       </p>
 
-      <div style={styles.section}>
+      <div style={styles.section} className="customer-section">
         <h2 style={styles.heading}>Contact Information</h2>
         <p style={styles.text}><strong>Email:</strong> support@projectorium.com</p>
         <p style={styles.text}><strong>Phone:</strong> +1-800-123-4567</p>
         <p style={styles.text}><strong>Address:</strong> 123 Innovation Street, Tech City, TX</p>
       </div>
 
-      <div style={styles.section}>
+      <div style={styles.section} className="customer-section">
         <h2 style={styles.heading}>Frequently Asked Questions</h2>
         <p style={styles.text}><strong>How do I add a project?</strong><br />
           Click the <em>"Add Project"</em> button, enter the details, and save.</p>
@@ -86,11 +87,12 @@ const CustomerCare = () => {
           Yes. We implement encryption and secure storage measures to protect your information.</p>
       </div>
 
-      <div style={styles.section}>
+      <div style={styles.section} className="customer-section">
         <h2 style={styles.heading}>Support</h2>
         <p style={styles.text}>If you need further assistance, fill out the form below.</p>
         <form onSubmit={handleSubmit}>
           <textarea
+            className="customer-textarea"
             style={styles.textArea}
             placeholder="Enter your message here..."
             value={message}
@@ -99,6 +101,7 @@ const CustomerCare = () => {
           ></textarea>
           <button
             type="submit"
+            className="customer-button"
             style={styles.button}
             onMouseOver={(e) => (e.target.style.background = styles.buttonHover.background)}
             onMouseOut={(e) => (e.target.style.background = styles.button.background)}

@@ -54,3 +54,47 @@
     box-shadow: 0px 4px 16px rgba(32, 0, 0, 0.8);
     width: 88%;  
   }
+  /* Responsive styles for About page */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .about-section h1 {
+    font-size: 22px;
+  }
+
+  .about-section p {
+    font-size: 14px;
+  }
+
+  .team_list {
+    grid-template-columns: 1fr; /* Stack team members vertically */
+  }
+
+  .team_member {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+  }
+
+  .team_member img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-section h1 {
+    font-size: 20px;
+  }
+
+  .about-section p {
+    font-size: 13px;
+  }
+
+  .team_member {
+    padding: 15px;
+  }
+}

@@ -1,4 +1,4 @@
-import "swiper/css"; // Swiper core styles
+import "swiper/css"; 
 import "swiper/css/navigation"; // Navigation module styles
 import "swiper/css/pagination"; // Pagination module styles
 import { Autoplay, Navigation } from "swiper/modules";
@@ -35,6 +35,13 @@ const Home=()=>{
       <Swiper
         spaceBetween={10}  
         slidesPerView={5}
+        breakpoints={{
+          1024: { slidesPerView: 5 },
+          992: { slidesPerView: 4},
+          768: { slidesPerView: 3 },
+          540: { slidesPerView: 2 },
+          360: { slidesPerView: 1 },
+        }}
         navigation={true}
         pagination={{ clickable: true }}
         autoplay={false}
@@ -110,6 +117,13 @@ const Home=()=>{
         <Swiper
         spaceBetween={10}  
         slidesPerView={5}
+        breakpoints={{
+          1024: { slidesPerView: 5 },
+          992: { slidesPerView: 4},
+          768: { slidesPerView: 3 },
+          540: { slidesPerView: 2 },
+          360: { slidesPerView: 1 },
+        }}
         navigation={true}
         pagination={{ clickable: true }}
         autoplay={false}
@@ -186,6 +200,13 @@ const Home=()=>{
         <Swiper
         spaceBetween={10}  
         slidesPerView={5}
+        breakpoints={{
+          1024: { slidesPerView: 5 },
+          992: { slidesPerView: 4},
+          768: { slidesPerView: 3 },
+          540: { slidesPerView: 2 },
+          360: { slidesPerView: 1 },
+        }}
         navigation={true}
         pagination={{ clickable: true }}
         autoplay={false}
