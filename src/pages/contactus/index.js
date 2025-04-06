@@ -6,10 +6,9 @@ const CustomerCare = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert("Your message has been submitted: " + message);
-    setMessage(""); // Clear input after submission
+    setMessage(""); 
   };
 
-  // Styles (Matching the previous design)
   const styles = {
     container: {
       maxWidth: "800px",

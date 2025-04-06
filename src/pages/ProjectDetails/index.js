@@ -1,4 +1,5 @@
 import Projectzoom from "../../components/Projectzoom/Projectzoom";
+import './ProjectDetails.css';
 
 const ProjectDetails = () => {
   return (

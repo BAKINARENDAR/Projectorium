@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"
+import './footer.css';
+
 
 const footer=()=>{
     return(
@@ -14,7 +16,7 @@ const footer=()=>{
           <p>Your hub for project ideas and collaboration.</p>
         </div>
 
-        {/* Navigation Links */}
+        
         <div className="footer-links">
           <h3>Quick Links</h3>
           <ul>

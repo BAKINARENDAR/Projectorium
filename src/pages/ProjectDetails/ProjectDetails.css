@@ -1,0 +1,20 @@
+.details-list {
+    display: flex;
+  }
+  .details-content-right {
+    background-color: #fff;
+    width: 65%;
+    display: flex;
+  }
+  .details1 {
+    width: 60%;
+  }
+  .details-content-right {
+    background-color: #fff;
+    width: 65%;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  

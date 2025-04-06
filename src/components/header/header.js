@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { CiCircleInfo } from "react-icons/ci";
 import { FaSearch } from "react-icons/fa";
 import { IoIosContact, IoIosMenu, IoMdArrowDropup } from "react-icons/io";
+import './header.css';
 
 import { RiCustomerService2Fill } from "react-icons/ri";
 

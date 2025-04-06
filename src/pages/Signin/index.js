@@ -2,6 +2,8 @@
 import { useContext, useEffect } from "react";
 import { MyContext } from "../../App";
 import { Link } from "react-router-dom";
+import './Signin.css';
+
 
 
 const Signin=()=>{

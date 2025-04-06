@@ -5,6 +5,7 @@ import demop1 from "../../images/demop1.jpg";
 import demop2 from "../../images/demop2.jpg";
 import demop3 from "../../images/demop3.jpg";
 import demop4 from "../../images/demop4.jpg";
+import './Projectzoom.css';
 
 const Projectzoom = () => {
   const [selectedImage, setSelectedImage] = useState(demop1);

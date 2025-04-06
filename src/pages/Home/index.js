@@ -4,7 +4,7 @@ import "swiper/css/pagination"; // Pagination module styles
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Rating from '@mui/material/Rating';
-
+import './home.css';
 
 
 const Home=()=>{

@@ -1,4 +1,6 @@
 import speakerImg from "../../images/speaker.jpg";
+import './About.css';
+
 const About = () => {
     return (
         <>
