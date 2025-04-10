@@ -63,7 +63,7 @@ const Home=()=>{
   <div class="firstone">
     <div class=""><button className="fimg2" onClick={() => {}}></button></div>
     <p><b>GESTURE CONTROLLED APPLICATOR</b></p>
-    <p><b>Rating:</b> <Rating name="read-only" value={5} readOnly /></p>
+    <p><b>Rating:</b> <Rating name="read-only" value={1} readOnly /></p>
     <p><b>Certified by:</b></p>
     <p>Mr. Srimanth Pal</p>
     <p class="designation">Associate Proffessor</p>
@@ -84,7 +84,7 @@ const Home=()=>{
   <div class="firstone">
     <div class=""><button className="fimg4" onClick={() => {}}></button></div>
     <p><b>LASER HOME SECURITY SYSTEM</b></p>
-    <p><b>Rating:</b> <Rating name="read-only" value={5} readOnly /></p>
+    <p><b>Rating:</b> <Rating name="read-only" value={3} readOnly /></p>
     <p><b>Certified by:</b></p>
     <p>Mr. Noel Nalli</p>
     <p class="designation">Proffessor</p>
@@ -104,7 +104,7 @@ const Home=()=>{
   <div class="firstone">
     <div class=""><button className="fimg6" onClick={() => {}}></button></div>
     <p><b>HAPPY SOUL</b></p>
-    <p><b>Rating:</b> <Rating name="read-only" value={4} readOnly /></p>
+    <p><b>Rating:</b> <Rating name="read-only" value={5} readOnly /></p>
     <p><b>Certified by:</b></p>
     <p>Mr. Srimanth Pal</p>
     <p class="designation">Associate Proffessor</p>
